@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>SMC Gaming INC</title>
+		<link rel="stylesheet" href="layout.css">
+	</head>
+	
+ <body>
+	<div class="container">
+			<div class="header">
+				<h1 class="header-heading">SMC Gaming INC</h1>
+			</div>
+			<div class="nav-bar">
+				<ul class="nav">
+					<li><a href="home.html">Home</a></li>
+					<li><a href="newgame.html">Add New Game</a></li>
+					<li><a href="searchgame.html">Search Games</a></li>
+					<li><a href="searchcustomer.html">Search Customers</a></li>
+				</ul>
+			</div> 
+	</div>
+	   <div class="content">
+		 <div class="main">
+		  <h1>Add a new customer to database</h1>
+
+  		   <form action="insert_customer.php" method="post">
+    	   <table border="0">
+    		 <tr>
+      		 <td>Name</td>
+       		 <td><input type="text" name="name" maxlength="25"></td>
+     		 </tr>
+      		 <tr>
+       		 <td>Address</td>
+      		 <td> <input type="text" name="address" maxlength="30"></td>
+     		 </tr>
+     		 <tr>
+         	 <td>Email</td>
+         	 <td><input type="text" name="email" maxlength="30"></td>
+      	 	 </tr>
+     	 	 <td colspan="2"><input type="submit" value="Add Customer"></td>
+      	   </table>
+  		   </form>
+        </div>
+	 </div>
+  	   <div class="footer">
+	 	By Trent Raynard CS85 2016
+	  </div>
+  
+ </body>
+</html>
